@@ -17,13 +17,12 @@ class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         // 로그인 페이지에 있는 '회원가입' 텍스트 클릭 시
-        // EmailRegisterActivity(회원가입 페이지)로 이동
+        // RegisterActivity(회원가입 페이지)로 이동
         TextView txtRegister = (TextView) findViewById(R.id.registerTextButton);
         txtRegister.setOnClickListener(new View.OnClickListener() {
             public void onClick( View view) {
-                Intent intent = new Intent(MainActivity.this , EmailRegisterActivity.class);
+                Intent intent = new Intent(MainActivity.this , RegisterActivity.class);
                 startActivity(intent);
 
             }

@@ -6,7 +6,7 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-//splash 화면이다.
+//앱 시작하면 맨 처음 보이는 splash 화면이다.
 // 3초동안 splash 화면이 뜨고, MainActivity로 이동한다.
 
 public

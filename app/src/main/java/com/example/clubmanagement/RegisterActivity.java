@@ -1,3 +1,5 @@
+// 회원가입 화면
+
 package com.example.clubmanagement;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -5,12 +7,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public
-class EmailRegisterActivity extends AppCompatActivity {
+class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected
     void onCreate ( Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_email_register);
+        setContentView(R.layout.activity_register);
     }
 }

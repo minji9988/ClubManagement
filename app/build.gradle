@@ -37,9 +37,14 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
+    //로그를 남기기 위한 라이브러리
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.11.0'
+
     // retrofit2
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     // Gson 변환기
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    implementation 'com.google.code.gson:gson:2.8.5' //버전 충돌날지도..
 
 }
