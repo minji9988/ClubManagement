@@ -25,6 +25,7 @@ class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //너무 힘들다....
 
         // 로그인 페이지에 있는 '회원가입' 텍스트 클릭 시
         // RegisterActivity(회원가입 페이지)로 이동
